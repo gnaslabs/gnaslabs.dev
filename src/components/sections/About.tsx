@@ -1,18 +1,17 @@
 import { motion } from "framer-motion";
 import { Container } from "@/components/layout/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-
-const paragraphs = [
-  "As an indie developer, I handle everything end-to-end: product vision, design, development, and deployment. This means lean, focused products that ship fast and evolve based on real usage.",
-];
+import { useLanguage } from "@/stores/LanguageContext";
 
 export function About() {
+  const { t } = useLanguage();
+
   return (
     <section id="about" className="py-24 md:py-32">
       <Container>
-        <SectionHeading title="About" />
+        <SectionHeading title={t.about.heading} />
         <div className="max-w-2xl space-y-6">
-          {paragraphs.map((text, i) => (
+          {t.about.paragraphs.map((text, i) => (
             <motion.p
               key={i}
               initial={{ opacity: 0, x: -20 }}

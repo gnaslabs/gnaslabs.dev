@@ -4,19 +4,21 @@ import { Container } from '@/components/layout/Container';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { ProjectCard } from '@/components/ui/ProjectCard';
 import { ProjectDetailModal } from '@/components/ui/ProjectDetailModal';
-import { projects, type Project } from '@/data/projects';
+import { useLanguage } from '@/stores/LanguageContext';
+import type { Project } from '@/data/projects';
 
 export function Projects() {
+	const { t, projects } = useLanguage();
 	const [selected, setSelected] = useState<Project | null>(null);
 
 	return (
 		<section id="projects" className="py-24 md:py-32">
 			<Container>
-				<SectionHeading title="Products" />
+				<SectionHeading title={t.nav.products} />
 				<div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 					{projects.map((project, index) => (
 						<motion.div
-							key={project.title}
+							key={project.key}
 							initial={{ opacity: 0, y: 30, scale: 0.95 }}
 							whileInView={{ opacity: 1, y: 0, scale: 1 }}
 							viewport={{ once: true, margin: '-50px' }}

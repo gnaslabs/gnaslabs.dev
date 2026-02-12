@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import { Github, ChevronDown } from "lucide-react";
 import { Container } from "@/components/layout/Container";
+import { useLanguage } from "@/stores/LanguageContext";
 
-const nameLetters = "ngosangns".split("");
+const nameLetters = "NS Labs".split("");
 
 const containerVariants = {
   hidden: {},
@@ -31,6 +32,9 @@ const fadeUp = {
 };
 
 export function Hero() {
+  const { t } = useLanguage();
+  const [before, after] = t.hero.description.split("{highlight}");
+
   return (
     <section id="hero" className="relative min-h-screen flex items-center">
       <Container>
@@ -48,7 +52,7 @@ export function Hero() {
               animate="visible"
               className="text-sm md:text-base text-muted-foreground mb-4 tracking-widest uppercase"
             >
-              Indie Developer &bull; Ho Chi Minh City
+              {t.hero.subtitle}
             </motion.p>
             <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tighter leading-[1.2em]">
               {nameLetters.map((letter, i) => (
@@ -71,9 +75,9 @@ export function Hero() {
             animate="visible"
             className="text-lg md:text-xl text-muted-foreground mb-10 max-w-xl leading-relaxed"
           >
-            I design and build{" "}
-            <span className="text-primary">digital products</span> that solve
-            real problems — from e-commerce to personal finance to education.
+            {before}
+            <span className="text-primary">{t.hero.descriptionHighlight}</span>
+            {after}
           </motion.p>
 
           <motion.div
@@ -87,7 +91,7 @@ export function Hero() {
               href="#projects"
               className="glow-hover inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-primary text-primary-foreground font-medium hover:scale-[1.02] transition-transform"
             >
-              View Products
+              {t.hero.viewProducts}
             </a>
             <a
               href="https://github.com/ngosangns"

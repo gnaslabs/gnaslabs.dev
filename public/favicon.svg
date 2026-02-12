@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexagonal wireframe — icosahedron-inspired -->
+  <path d="M32 4L58 18V46L32 60L6 46V18Z" fill="url(#g)" opacity="0.12"/>
+  <path d="M32 4L58 18V46L32 60L6 46V18Z" stroke="url(#g)" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Internal triangulation lines -->
+  <path d="M32 4L32 60M6 18L58 46M58 18L6 46" stroke="url(#g)" stroke-width="1.5" opacity="0.3"/>
+  <!-- Center node -->
+  <circle cx="32" cy="32" r="5" fill="url(#g)"/>
+</svg>
