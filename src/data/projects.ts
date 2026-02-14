@@ -240,7 +240,7 @@ export const projectStructures: ProjectStructure[] = [
 		],
 	},
 	{
-		key: 'ns-tracing-extension',
+		key: 'ns-tracing',
 		url: 'https://github.com/ngosangns/ns-tracing-extension',
 		featureGroups: [
 			{
@@ -259,26 +259,12 @@ export const projectStructures: ProjectStructure[] = [
 					{ icon: Link },
 				],
 			},
-		],
-	},
-	{
-		key: 'ns-tracing-server',
-		url: 'https://github.com/ngosangns/ns-tracing-server',
-		featureGroups: [
 			{
 				features: [
 					{ icon: Play },
 					{ icon: Clock },
 					{ icon: AlertTriangle },
-					{ icon: Globe },
-				],
-			},
-			{
-				features: [
-					{ icon: Terminal },
 					{ icon: Eye },
-					{ icon: Wifi },
-					{ icon: Upload },
 				],
 			},
 		],

@@ -4,9 +4,9 @@ export const en = {
 	meta: {
 		title: 'NS Labs',
 		description:
-			'A few digital products I built — from shopping and personal finance to developer tools.',
+			'Digital products I build and run on my own — from fashion shopping, personal finance, vocabulary learning to developer tools.',
 		ogDescription:
-			'Digital products I built — shopping, personal finance, vocabulary learning, developer tools.',
+			'Personal digital products — shopping, finance, vocabulary, cloud sync, browser debugging.',
 	},
 	nav: {
 		about: 'About',
@@ -16,21 +16,21 @@ export const en = {
 	hero: {
 		subtitle: 'Ho Chi Minh City',
 		description:
-			'I build {highlight} for everyday needs — shopping, personal finance, vocabulary learning, and software development.',
+			'I\u2019m a software engineer, and this is where I put together the {highlight} I build — for everyday needs from shopping, personal finance, vocabulary learning to software development.',
 		descriptionHighlight: 'digital products',
 		viewProducts: 'View Products',
 	},
 	about: {
 		heading: 'About',
 		paragraphs: [
-			'NS Labs is where I put together my personal projects — from idea, design, code, to operations, all done by myself.',
-			'Each product comes from a real need, prioritizing simplicity and usability.',
+			'NS Labs is where I put together my personal projects. Each product comes from a real need of mine — from idea, design, code to operations, all done by myself.',
+			'I prioritize making things simple, easy to use, and solving the right problem. If you find any product useful, feel free to give it a try.',
 		],
 	},
 	contact: {
 		heading: 'Contact',
 		description:
-			'Got feedback, questions, or just want to chat? Drop me an email.',
+			'Want to share feedback, discuss a product, or just chat? Drop me an email.',
 		emailLabel: 'Email',
 		blogLabel: 'Blog',
 	},
