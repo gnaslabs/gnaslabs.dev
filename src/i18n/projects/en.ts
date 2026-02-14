@@ -4,31 +4,32 @@ export const projectsEn: ProjectTranslation[] = [
 	{
 		title: 'NS Shop',
 		description:
-			'Online fashion store with a seamless shopping experience \u2014 from browsing and searching products to managing your cart and checking out with COD or bank transfer.',
-		tagline: 'Fashion e-commerce, simplified.',
-		highlights: ['Product catalog & search', 'Cart & checkout'],
+			'An online fashion platform delivering a seamless shopping experience from start to finish. Browse, discover, order, and track \u2014 all in one smooth journey.',
+		tagline: 'Fashion shopping, without limits.',
+		highlights: ['Product discovery', 'Flexible checkout'],
 		featureGroups: [
 			{
 				heading: 'Shopping Experience',
 				features: [
 					{
-						title: 'Product Catalog',
+						title: 'Unlimited Discovery',
 						description:
-							'Browse products by categories, search by keywords, and filter by size, color, or brand.',
+							'Browse by category, search by keyword, filter by size, color, or brand \u2014 find exactly what you need in seconds.',
 					},
 					{
-						title: 'Multi-Variant Products',
+						title: 'Rich Variants',
 						description:
-							'Each product supports multiple sizes and colors with individual pricing and stock tracking.',
+							'Every product comes with full size and color options, with pricing and stock updated in real time.',
 					},
 					{
-						title: 'Reviews & Ratings',
+						title: 'Community Reviews',
 						description:
-							'Read and write product reviews with star ratings to help make informed purchase decisions.',
+							'Read ratings and reviews from real buyers, or share your own experience to help others.',
 					},
 					{
 						title: 'Wishlist',
-						description: 'Save your favorite items for later and never miss a product you love.',
+						description:
+							'Save items you love and come back anytime \u2014 never lose track of your favorites.',
 					},
 				],
 			},
@@ -36,24 +37,24 @@ export const projectsEn: ProjectTranslation[] = [
 				heading: 'Cart & Checkout',
 				features: [
 					{
-						title: 'Guest-Friendly Cart',
+						title: 'Shop Now, Sign Up Later',
 						description:
-							'Start shopping without creating an account \u2014 your cart is saved automatically.',
+							'No account needed to get started \u2014 your cart saves automatically, ready when you are.',
 					},
 					{
-						title: 'Flexible Payments',
+						title: 'Pay Your Way',
 						description:
-							'Pay with cash on delivery (COD) or bank transfer \u2014 whichever works best for you.',
+							'Cash on delivery or bank transfer \u2014 pick whichever works best for you.',
 					},
 					{
-						title: 'Saved Addresses',
+						title: 'Smart Delivery',
 						description:
-							'Save multiple delivery addresses and set a default for faster checkout.',
+							'Save multiple addresses and set a default \u2014 checkout gets faster every time.',
 					},
 					{
-						title: 'Order Tracking',
+						title: 'Track Every Step',
 						description:
-							'Track your order status in real time and receive email notifications at every step.',
+							'Know exactly where your order is with automatic email notifications at every milestone.',
 					},
 				],
 			},
@@ -62,57 +63,57 @@ export const projectsEn: ProjectTranslation[] = [
 	{
 		title: 'NS Money',
 		description:
-			'Personal finance companion that helps you track spending, manage budgets, and gain insights into your financial habits. Features AI-powered analysis and a Telegram bot for quick expense logging on the go.',
-		tagline: 'Your personal finance companion.',
-		highlights: ['Expense tracking', 'AI insights', 'Telegram bot'],
+			'Turn financial management from a chore into a simple habit. AI understands natural language, a Telegram bot logs expenses on the go, and analytics give you the full picture of your finances.',
+		tagline: 'Own your finances, every day.',
+		highlights: ['Smart management', 'AI-powered', 'Telegram bot'],
 		featureGroups: [
 			{
-				heading: 'Expense Tracking',
+				heading: 'Complete Management',
 				features: [
 					{
-						title: 'Multi-Wallet Support',
+						title: 'Many Wallets, One Place',
 						description:
-							'Create separate wallets for different accounts \u2014 savings, daily spending, business, and more.',
+							'Separate savings, daily spending, business, or any purpose \u2014 each wallet tells its own story.',
 					},
 					{
-						title: 'Income & Expenses',
+						title: 'Crystal-Clear Tracking',
 						description:
-							'Categorize every transaction as income or expense with custom categories and notes.',
+							'Categorize every transaction with custom categories and notes \u2014 not a single dollar goes unrecorded.',
 					},
 					{
-						title: 'Transaction History',
+						title: 'Full History',
 						description:
-							'Full searchable history of all transactions with dates, amounts, and wallet details.',
+							'Look up any transaction by date, amount, or wallet \u2014 everything is always at your fingertips.',
 					},
 					{
-						title: 'Multi-Currency',
+						title: 'No Currency Limits',
 						description:
-							'Track expenses in VND and USD \u2014 perfect for international transactions.',
+							'VND or USD \u2014 track every transaction, whether domestic or international.',
 					},
 				],
 			},
 			{
-				heading: 'AI-Powered Features',
+				heading: 'AI Assistant',
 				features: [
 					{
-						title: 'Receipt Scanning',
+						title: 'Instant Receipt Scan',
 						description:
-							'Snap a photo of any receipt or invoice \u2014 AI automatically extracts the amount and details.',
+							'Snap a photo of any receipt and AI reads the amount and details automatically \u2014 no manual entry needed.',
 					},
 					{
-						title: 'Natural Language Input',
+						title: 'Talk to AI',
 						description:
-							'Type "coffee 50k" or "salary 15M" \u2014 AI understands and creates the transaction for you.',
+							'Type "coffee 50k" or "salary 15M" \u2014 AI understands instantly and creates the transaction for you.',
 					},
 					{
 						title: 'Smart Parsing',
 						description:
-							'AI handles currency formats, abbreviations, and multiple transactions in a single message.',
+							'Abbreviations, multiple transactions in one sentence, different currency formats \u2014 AI handles it all.',
 					},
 					{
-						title: 'AI Transaction Creation',
+						title: 'Auto-Categorize',
 						description:
-							'Describe your expenses naturally and let AI categorize and log them automatically.',
+							'Describe your expenses in everyday language and AI categorizes and logs them automatically.',
 					},
 				],
 			},
@@ -120,49 +121,49 @@ export const projectsEn: ProjectTranslation[] = [
 				heading: 'Telegram Bot',
 				features: [
 					{
-						title: 'Log on the Go',
+						title: 'Log Anytime',
 						description:
-							'Send a quick message to the Telegram bot to log expenses anytime, anywhere.',
+							'On the move? Send a quick message to the bot and you\u2019re done \u2014 expenses logged instantly.',
 					},
 					{
-						title: 'Chat Commands',
+						title: 'Just Ask',
 						description:
-							'Check wallet balances, view recent transactions, and get spending stats \u2014 all via chat.',
+							'Check balances, view recent transactions, get spending stats \u2014 all with a simple message.',
 					},
 					{
-						title: 'Period Statistics',
+						title: 'Flexible Reports',
 						description:
-							'View spending summaries by day, week, month, or year directly in Telegram.',
+							'Summaries by day, week, month, or year \u2014 right in Telegram, no app needed.',
 					},
 					{
-						title: 'Secure Linking',
+						title: 'Absolute Security',
 						description:
-							'Link your Telegram account securely with a one-time secret key \u2014 your data stays private.',
+							'Link your account with a one-time secret code \u2014 your data stays yours and yours alone.',
 					},
 				],
 			},
 			{
-				heading: 'Analytics Dashboard',
+				heading: 'Financial Analytics',
 				features: [
 					{
-						title: 'Income vs. Expense Charts',
+						title: 'Income & Expense Charts',
 						description:
-							'Visual bar charts comparing your income and expenses over any time period.',
+							'See your income and spending clearly through visual charts \u2014 compare across any time period.',
 					},
 					{
-						title: 'Category Breakdown',
+						title: 'Where Does the Money Go?',
 						description:
-							'See exactly where your money goes with detailed category-level spending charts.',
+							'Detailed breakdown by category \u2014 know exactly where every dollar is flowing.',
 					},
 					{
-						title: 'Spending Heatmap',
+						title: 'Habit Map',
 						description:
-							'Discover your spending patterns with a heatmap showing activity by day of the week.',
+							'Discover your spending patterns through a heatmap \u2014 understand yourself better every day.',
 					},
 					{
-						title: 'Savings Rate',
+						title: 'Savings Goals',
 						description:
-							'Track your cumulative balance and savings rate to stay on top of your financial goals.',
+							'Track your cumulative balance and savings rate \u2014 one step closer to your financial goals.',
 					},
 				],
 			},
@@ -171,132 +172,132 @@ export const projectsEn: ProjectTranslation[] = [
 	{
 		title: 'Vocab',
 		description:
-			'Smart vocabulary learning app that adapts to your pace using spaced repetition. AI suggests definitions and example sentences, while progress tracking keeps you motivated to reach your language goals.',
-		tagline: 'Learn vocabulary the smart way.',
-		highlights: ['Spaced repetition', 'AI-powered suggestions', 'Progress tracking'],
+			'Turn vocabulary learning from a chore into something you enjoy. Adaptive algorithms help you remember longer, AI creates personalized exercises, and a competitive system keeps you coming back for more.',
+		tagline: 'Learn vocabulary, never boring.',
+		highlights: ['Long-term retention', 'AI personalization', 'Compete & rank'],
 		featureGroups: [
 			{
-				heading: 'Adaptive Learning',
+				heading: 'Learn Your Way',
 				features: [
 					{
-						title: 'Spaced Repetition',
+						title: 'Remember Deep, Remember Long',
 						description:
-							'An intelligent algorithm schedules reviews at optimal intervals so you remember words long-term.',
+							'Spaced repetition algorithms calculate the optimal review timing \u2014 helping vocabulary stick in long-term memory.',
 					},
 					{
-						title: 'Adaptive Difficulty',
+						title: 'Just the Right Challenge',
 						description:
-							'Content difficulty adjusts automatically based on your performance \u2014 always challenging, never overwhelming.',
+							'Difficulty auto-adjusts to your real level \u2014 always challenging enough to grow, never overwhelming.',
 					},
 					{
-						title: 'Optimized Sessions',
+						title: 'Start Instantly',
 						description:
-							'Review sessions are pre-computed in the background for instant, zero-wait starts.',
+							'Review sessions are pre-computed in the background \u2014 open the app and start learning, zero wait.',
 					},
 					{
-						title: 'Retention-Focused',
+						title: 'The 60/40 Strategy',
 						description:
-							'The system balances new words with due reviews using a 60/40 strategy for maximum retention.',
+							'Balance new words and reviews at the golden ratio \u2014 maximizing your retention.',
 					},
 				],
 			},
 			{
-				heading: 'Practice Modes',
+				heading: 'Diverse Practice',
 				features: [
 					{
-						title: 'Vocabulary Exercises',
+						title: 'Deep Vocabulary',
 						description:
-							'Learn new words with detailed definitions, pronunciations, and real-world examples.',
+							'Learn new words with detailed definitions, pronunciation, and real-world context examples.',
 					},
 					{
-						title: 'Grammar Exercises',
+						title: 'Battle-Tested Grammar',
 						description:
-							'Practice grammar with error detection exercises across topics like tenses and agreement.',
+							'Sharpen grammar through error-spotting exercises \u2014 from tenses and agreement to complex structures.',
 					},
 					{
-						title: 'Reading Comprehension',
+						title: 'Smart Comprehension',
 						description:
-							'Improve understanding with passage-based Q&A including true/false and short answer questions.',
+							'Level up your reading skills with passage-based true/false and short-answer questions.',
 					},
 					{
-						title: 'Multiple Choice',
+						title: 'AI Quizzes',
 						description:
-							'Test your knowledge with AI-generated multiple choice questions at varying difficulty levels.',
+							'Test your knowledge with AI-generated questions \u2014 multiple levels, never repetitive.',
 					},
 				],
 			},
 			{
-				heading: 'AI Assistant',
+				heading: 'AI Companion',
 				features: [
 					{
-						title: 'AI Definitions',
+						title: 'Smart Dictionary',
 						description:
-							'Get detailed definitions with examples, synonyms, antonyms, and related words \u2014 all AI-generated.',
+							'Detailed definitions with examples, synonyms, and antonyms \u2014 all deeply curated by AI.',
 					},
 					{
-						title: 'Bilingual Support',
+						title: 'Bilingual English-Vietnamese',
 						description:
-							'Definitions available in both English and Vietnamese for better comprehension.',
+							'Every definition available in both English and Vietnamese \u2014 understand deeper, remember faster.',
 					},
 					{
-						title: 'Content Generation',
+						title: 'Personalized Exercises',
 						description:
-							'AI creates fresh exercises based on your keywords and preferred difficulty level.',
+							'AI creates fresh exercises based on your keywords and chosen difficulty \u2014 always new, never stale.',
 					},
 					{
-						title: 'Answer Evaluation',
+						title: 'Auto-Grading',
 						description:
-							'Submit free-form answers and receive AI-powered scoring with detailed feedback.',
+							'Write free-form answers and get AI scoring with detailed feedback \u2014 like having a personal tutor.',
 					},
 				],
 			},
 			{
-				heading: 'Progress & Competition',
+				heading: 'Compete & Progress',
 				features: [
 					{
-						title: 'Activity Heatmap',
+						title: 'Learning Journal',
 						description:
-							'A GitHub-style heatmap that visualizes your daily learning activity across weeks and months.',
+							'A GitHub-style heatmap showing every day you studied \u2014 the longer the streak, the stronger the drive.',
 					},
 					{
-						title: 'MMR Rating System',
+						title: 'Skill Rankings',
 						description:
-							'Earn a skill rating for vocabulary, grammar, and reading \u2014 with tier badges from Bronze to Master.',
+							'Earn MMR scores for vocabulary, grammar, and reading \u2014 climb from Bronze to Master.',
 					},
 					{
-						title: 'Global Leaderboards',
+						title: 'Global Challenge',
 						description:
-							'Compete with other learners on leaderboards filtered by language and skill type.',
+							'Compete with learners worldwide on leaderboards \u2014 filter by language and skill type.',
 					},
 					{
-						title: 'Streak & Accuracy',
+						title: 'Stay Motivated',
 						description:
-							'Track your learning streaks, accuracy rates, and words learned to stay motivated.',
+							'Learning streaks, accuracy rates, words conquered \u2014 every number is an achievement.',
 					},
 				],
 			},
 			{
-				heading: 'Organization',
+				heading: 'Smart Organization',
 				features: [
 					{
-						title: 'Bookmark Collections',
+						title: 'Personal Collections',
 						description:
-							'Create custom collections to organize words, exercises, and content you want to revisit.',
+							'Create custom collections \u2014 group words, exercises, and content by any topic you choose.',
 					},
 					{
-						title: 'Save from Practice',
+						title: 'Save While Learning',
 						description:
-							'Encounter a new word during practice? Save it with context to your bookmarks instantly.',
+							'Spot a new word during practice? One tap to save it with context \u2014 nothing gets missed.',
 					},
 					{
-						title: 'Keyword Dictionary',
+						title: 'Personal Keyword Vault',
 						description:
-							'Build a personal keyword dictionary with meanings and track which content uses each keyword.',
+							'Build your own keyword dictionary \u2014 track where each word appears and what it means.',
 					},
 					{
-						title: 'Cross-Type Bookmarks',
+						title: 'One Place for Everything',
 						description:
-							'Bookmark vocabulary, grammar exercises, MCQs, and reading passages \u2014 all in one place.',
+							'Bookmark vocabulary, grammar, quizzes, and reading passages \u2014 all neatly organized in one spot.',
 					},
 				],
 			},
@@ -305,107 +306,107 @@ export const projectsEn: ProjectTranslation[] = [
 	{
 		title: 'NS Drive',
 		description:
-			'Desktop application for multi-cloud storage synchronization with a visual interface. Connect Google Drive, Dropbox, OneDrive, and more \u2014 then design sync workflows, automate schedules, and manage files across all your cloud accounts in one place.',
-		tagline: 'Multi-cloud sync, visualized.',
-		highlights: ['Visual workflows', 'Multi-cloud sync', 'Encrypted & secure'],
+			'Stop managing cloud services one by one. Connect them all in one place, design visual sync workflows, and automate everything \u2014 your data, under your control.',
+		tagline: 'All your clouds, one place.',
+		highlights: ['Visual sync', 'Automation', 'AES-256 security'],
 		featureGroups: [
 			{
-				heading: 'Cloud Sync',
+				heading: 'Connect Every Cloud',
 				features: [
 					{
-						title: 'Multi-Cloud Hub',
+						title: 'Unified Hub',
 						description:
-							'Connect Google Drive, Dropbox, OneDrive, iCloud, Yandex Disk, and many more providers in one unified interface.',
+							'Google Drive, Dropbox, OneDrive, iCloud, and dozens more \u2014 all in a single interface.',
 					},
 					{
-						title: 'Flexible Sync Modes',
+						title: 'Flexible Sync',
 						description:
-							'Pull, push, or bi-directional sync \u2014 choose the right mode for each workflow with full conflict resolution.',
+							'One-way, two-way, or copy \u2014 pick the right mode with automatic conflict resolution.',
 					},
 					{
-						title: 'Advanced Profiles',
+						title: 'Deep Customization',
 						description:
-							'Fine-tune every sync with 60+ options \u2014 bandwidth limits, file filters, size constraints, and safety controls.',
+							'60+ configuration options \u2014 from bandwidth limits and file filters to safety controls.',
 					},
 					{
-						title: 'Multi-Tab Operations',
+						title: 'Unlimited Parallel',
 						description:
-							'Run and monitor multiple sync operations simultaneously, each with independent progress and logs.',
+							'Run multiple sync tasks simultaneously, each with its own progress and logs.',
 					},
 				],
 			},
 			{
-				heading: 'Visual Workflows',
+				heading: 'Workflow Designer',
 				features: [
 					{
-						title: 'Board Editor',
+						title: 'Drag & Drop Canvas',
 						description:
-							'Design multi-step sync workflows on a drag-and-drop canvas \u2014 connect remotes visually to define sync pipelines.',
+							'Design multi-step sync workflows on a visual canvas \u2014 connect data sources by dragging and dropping.',
 					},
 					{
-						title: 'DAG Execution',
+						title: 'Smart Execution',
 						description:
-							'Boards execute as directed acyclic graphs with automatic dependency resolution and cycle detection.',
+							'Workflows run as directed acyclic graphs \u2014 automatically resolving dependencies and detecting cycles.',
 					},
 					{
-						title: 'Cron Scheduling',
+						title: 'Auto-Scheduling',
 						description:
-							'Automate any profile or board with cron-based scheduling \u2014 track last run, next run, and execution results.',
+							'Automate any workflow with cron scheduling \u2014 track previous runs, next runs, and results.',
 					},
 					{
-						title: 'Quick Execute',
+						title: 'One-Tap Launch',
 						description:
-							'Launch boards directly from the system tray for one-click execution without opening the full app.',
+							'Start workflows directly from the system tray \u2014 no need to open the app.',
 					},
 				],
 			},
 			{
-				heading: 'File Operations',
+				heading: 'File Management',
 				features: [
 					{
-						title: 'Remote Browser',
+						title: 'Browse Anywhere',
 						description:
-							'Browse files on any connected remote with full path navigation, directory creation, and deletion.',
+							'Access files on any service \u2014 navigate, create folders, or delete, all from one interface.',
 					},
 					{
-						title: 'Copy & Move',
+						title: 'Quick Transfers',
 						description:
-							'Transfer files between remotes or local storage with real-time progress tracking.',
+							'Move files between services or local storage with real-time progress updates.',
 					},
 					{
-						title: 'Dedupe & Check',
+						title: 'Smart Cleanup',
 						description:
-							'Find and remove duplicate files, verify integrity across remotes, and calculate storage usage.',
+							'Detect duplicates, verify integrity, and calculate storage usage \u2014 keep your vault tidy.',
 					},
 					{
-						title: 'Operation History',
+						title: 'Complete Logs',
 						description:
-							'Full history of all sync and file operations with transfer statistics, duration, and status.',
+							'Full history of all sync and file operations \u2014 transfer stats, duration, and status.',
 					},
 				],
 			},
 			{
-				heading: 'Security & System',
+				heading: 'Absolute Security',
 				features: [
 					{
 						title: 'AES-256 Encryption',
 						description:
-							'All sensitive data encrypted at rest with AES-256-GCM \u2014 OAuth tokens and database fully protected.',
+							'All sensitive data encrypted with AES-256-GCM \u2014 tokens and database fully locked down.',
 					},
 					{
-						title: 'Master Password',
+						title: 'Master Key',
 						description:
-							'Optional master password with Argon2id key derivation and rate-limited unlock attempts.',
+							'Set a master password with Argon2id \u2014 an extra layer of protection with rate-limited unlock attempts.',
 					},
 					{
-						title: 'Import & Export',
+						title: 'Backup & Share',
 						description:
-							'Back up or share your full configuration \u2014 boards, remotes, and settings \u2014 in a compressed binary format.',
+							'Export your entire configuration \u2014 boards, data sources, settings \u2014 in one compact compressed file.',
 					},
 					{
-						title: 'Cross-Platform',
+						title: 'Every Platform',
 						description:
-							'Native desktop app for macOS, Linux, and Windows with system tray integration and start-at-login support.',
+							'Native desktop app for macOS, Linux, and Windows \u2014 system tray integration, start with your machine.',
 					},
 				],
 			},
@@ -414,57 +415,57 @@ export const projectsEn: ProjectTranslation[] = [
 	{
 		title: 'NS Tracing Extension',
 		description:
-			'Chrome extension that records comprehensive debugging data during web testing sessions \u2014 capturing screen video, console logs, network requests, and WebSocket activity with source map support for minified code.',
-		tagline: 'Record everything, debug faster.',
-		highlights: ['Screen recording', 'Console & network capture', 'Source map support'],
+			'Capture everything that happens during a debug session \u2014 screen video, console, network, WebSocket \u2014 with a single click. Source maps automatically decode minified code, helping you find bugs faster than ever.',
+		tagline: 'Debug without blind spots, save time.',
+		highlights: ['Full recording', 'Auto-capture', 'Source maps'],
 		featureGroups: [
 			{
-				heading: 'Data Capture',
+				heading: 'Complete Capture',
 				features: [
 					{
-						title: 'Screen Recording',
+						title: 'One-Tap Recording',
 						description:
-							'Record tab video in VP9/VP8 with Opus audio using the MediaRecorder API \u2014 one click to start.',
+							'Hit record and go \u2014 browser tab video in VP9/VP8 with audio, no complex setup needed.',
 					},
 					{
-						title: 'Console Capture',
+						title: 'Nothing Missed in Console',
 						description:
-							'Capture all console output (errors, warnings, info) with full object inspection and CDP format parsing.',
+							'Every log, warning, and error captured with full object details \u2014 like DevTools running 24/7 in the background.',
 					},
 					{
-						title: 'Network Monitoring',
+						title: 'Every Request, Every Response',
 						description:
-							'Record every HTTP request and response including headers, bodies, timing data, and status codes.',
+							'Headers, bodies, timing, status codes \u2014 all network activity stored in full detail.',
 					},
 					{
-						title: 'WebSocket Tracking',
+						title: 'Real-Time WebSocket',
 						description:
-							'Capture real-time WebSocket frames (sent and received) with payload data for debugging live connections.',
+							'Capture every frame sent and received \u2014 debugging real-time connections has never been easier.',
 					},
 				],
 			},
 			{
-				heading: 'Export & Sharing',
+				heading: 'Export & Share',
 				features: [
 					{
-						title: 'Source Map Resolution',
+						title: 'Auto Source Maps',
 						description:
-							'Automatically resolve minified stack traces to original source code with built-in VLQ decoding.',
+							'Stack traces from minified code decoded back to source \u2014 find errors at the right file and line.',
 					},
 					{
-						title: 'ZIP Export',
+						title: 'Download as ZIP',
 						description:
-							'Download complete recording sessions as ZIP files containing video, logs, and network data.',
+							'The entire debug session \u2014 video, logs, network \u2014 packed into one ZIP file ready to share.',
 					},
 					{
-						title: 'Server Upload',
+						title: 'Push to Server',
 						description:
-							'Upload recordings to the companion NS Tracing Server for centralized storage and team sharing.',
+							'Upload recordings to NS Tracing Server for centralized storage and team-wide sharing.',
 					},
 					{
-						title: 'Shareable Links',
+						title: 'Instant Share Links',
 						description:
-							'Generate shareable view URLs after uploading so teammates can replay and inspect sessions instantly.',
+							'Generate a view URL right after upload \u2014 teammates open the link and watch, no setup required.',
 					},
 				],
 			},
@@ -473,57 +474,57 @@ export const projectsEn: ProjectTranslation[] = [
 	{
 		title: 'NS Tracing Server',
 		description:
-			'Session replay viewer for debugging browser interactions. Upload video recordings with synchronized console logs, network requests, and WebSocket traffic, then play them back with interactive timeline markers.',
-		tagline: 'Replay and inspect debug sessions.',
-		highlights: ['Synchronized replay', 'Timeline markers', 'Debug inspector'],
+			'Replay debug sessions like watching game footage \u2014 video synced with console, network, and WebSocket. Timeline markers for errors and requests let you jump straight to the problem.',
+		tagline: 'Watch, understand, fix fast.',
+		highlights: ['Synced replay', 'Smart timeline', 'Visual debugging'],
 		featureGroups: [
 			{
-				heading: 'Session Replay',
+				heading: 'Debug Session Replay',
 				features: [
 					{
-						title: 'Video Playback',
+						title: 'Watch It Live',
 						description:
-							'Play back recorded browser sessions with a synchronized video player and tabbed log panels.',
+							'Video and logs play in sync \u2014 see exactly what happened on screen when the error occurred.',
 					},
 					{
-						title: 'Interactive Timeline',
+						title: 'Smart Timeline',
 						description:
-							'Navigate recordings with a timeline featuring automatic markers for key events and activities.',
+							'A timeline with automatic markers \u2014 jump to any moment with a single click.',
 					},
 					{
-						title: 'Error Markers',
+						title: 'Errors Stand Out',
 						description:
-							'Red markers on the timeline highlight console errors so you can jump directly to problem moments.',
+							'Red markers highlight every console error on the timeline \u2014 no searching needed, problems reveal themselves.',
 					},
 					{
-						title: 'Network Markers',
+						title: 'Network at a Glance',
 						description:
-							'Blue markers indicate network requests on the timeline for quick correlation with visual behavior.',
+							'Blue markers for each network request \u2014 quickly correlate user behavior with data transfers.',
 					},
 				],
 			},
 			{
-				heading: 'Debug Inspector',
+				heading: 'Analysis Tools',
 				features: [
 					{
-						title: 'Console Viewer',
+						title: 'Detailed Console',
 						description:
-							'Browse console logs with timestamps, severity levels, stack traces, and source-mapped locations.',
+							'Browse logs with timestamps, severity levels, and stack traces \u2014 source maps point to the original code line.',
 					},
 					{
 						title: 'Request Inspector',
 						description:
-							'Inspect HTTP requests and responses with headers, status codes, response sizes, and timing information.',
+							'Examine each HTTP request with headers, status codes, sizes, and response times.',
 					},
 					{
-						title: 'WebSocket Viewer',
+						title: 'Visual WebSocket',
 						description:
-							'View WebSocket frames with payload data, organized by connection for real-time protocol debugging.',
+							'View each WebSocket frame with payload, organized by connection \u2014 real-time protocol debugging made easy.',
 					},
 					{
-						title: 'Recording Upload',
+						title: 'Unlimited Uploads',
 						description:
-							'Accept video files up to 500MB with telemetry data, stored persistently with unique shareable IDs.',
+							'Accept videos up to 500MB with telemetry \u2014 stored permanently with unique shareable IDs.',
 					},
 				],
 			},
