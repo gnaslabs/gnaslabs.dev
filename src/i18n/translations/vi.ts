@@ -4,9 +4,9 @@ export const vi = {
 	meta: {
 		title: 'NS Labs',
 		description:
-			'Các sản phẩm số mình tự xây dựng và vận hành — từ mua sắm thời trang, quản lý tài chính cá nhân, học từ vựng đến công cụ hỗ trợ lập trình.',
+			'Nhóm nghiên cứu và phát triển các sản phẩm số hữu ích — từ mua sắm thời trang, quản lý tài chính, học từ vựng đến công cụ hỗ trợ lập trình.',
 		ogDescription:
-			'Sản phẩm số cá nhân — mua sắm, tài chính, học từ vựng, đồng bộ cloud, debug trình duyệt.',
+			'Nghiên cứu và phát triển sản phẩm số — mua sắm, tài chính, học từ vựng, đồng bộ cloud, debug trình duyệt.',
 	},
 	nav: {
 		about: 'Giới Thiệu',
@@ -14,23 +14,23 @@ export const vi = {
 		contact: 'Liên Hệ',
 	},
 	hero: {
-		subtitle: 'TP. Hồ Chí Minh',
+		subtitle: 'Nghiên Cứu & Phát Triển • TP. Hồ Chí Minh',
 		description:
-			'Mình là một kỹ sư phần mềm, và đây là nơi mình tập hợp {highlight} mình tự xây dựng — phục vụ nhu cầu hàng ngày từ mua sắm, quản lý tài chính, học từ vựng đến hỗ trợ phát triển phần mềm.',
+			'Chúng tôi nghiên cứu và phát triển {highlight} phục vụ nhu cầu hàng ngày — từ mua sắm, quản lý tài chính, học từ vựng đến hỗ trợ phát triển phần mềm.',
 		descriptionHighlight: 'các sản phẩm số',
 		viewProducts: 'Xem Sản Phẩm',
 	},
 	about: {
 		heading: 'Giới Thiệu',
 		paragraphs: [
-			'NS Labs là nơi mình tập hợp các sản phẩm cá nhân. Mỗi sản phẩm đều xuất phát từ nhu cầu thực tế của mình — từ ý tưởng, thiết kế, code đến vận hành đều tự làm.',
-			'Mình ưu tiên làm ra thứ đơn giản, dễ dùng và giải quyết đúng vấn đề. Nếu bạn thấy sản phẩm nào hữu ích thì cứ dùng thử.',
+			'NS Labs là một nhóm nghiên cứu và phát triển sản phẩm số tại TP. Hồ Chí Minh. Mỗi sản phẩm đều xuất phát từ nhu cầu thực tế — từ ý tưởng, thiết kế đến phát triển và vận hành.',
+			'Chúng tôi ưu tiên làm ra những sản phẩm đơn giản, dễ dùng và giải quyết đúng vấn đề. Nếu bạn thấy sản phẩm nào hữu ích thì cứ dùng thử.',
 		],
 	},
 	contact: {
 		heading: 'Liên Hệ',
 		description:
-			'Muốn góp ý, trao đổi về sản phẩm hay đơn giản là nói chuyện? Cứ gửi mail cho mình.',
+			'Muốn góp ý, trao đổi về sản phẩm hay đơn giản là nói chuyện? Cứ gửi email cho chúng tôi.',
 		emailLabel: 'Email',
 		blogLabel: 'Blog',
 	},
