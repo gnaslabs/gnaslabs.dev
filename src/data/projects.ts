@@ -70,8 +70,11 @@ export interface ProjectFeatureGroup {
 	features: ProjectFeature[];
 }
 
+export type ProjectCategory = 'product' | 'open-source';
+
 export interface Project {
 	key: string;
+	category: ProjectCategory;
 	title: string;
 	description: string;
 	tagline: string;
@@ -90,6 +93,7 @@ export interface ProjectStructureGroup {
 
 export interface ProjectStructure {
 	key: string;
+	category: ProjectCategory;
 	url: string;
 	featureGroups: ProjectStructureGroup[];
 }
@@ -97,6 +101,7 @@ export interface ProjectStructure {
 export const projectStructures: ProjectStructure[] = [
 	{
 		key: 'ns-shop',
+		category: 'product',
 		url: 'https://shop.ns.id.vn',
 		featureGroups: [
 			{
@@ -119,6 +124,7 @@ export const projectStructures: ProjectStructure[] = [
 	},
 	{
 		key: 'ns-money',
+		category: 'product',
 		url: 'https://money.ns.id.vn',
 		featureGroups: [
 			{
@@ -157,6 +163,7 @@ export const projectStructures: ProjectStructure[] = [
 	},
 	{
 		key: 'vocab',
+		category: 'product',
 		url: 'https://vocab.ns.id.vn',
 		featureGroups: [
 			{
@@ -203,6 +210,7 @@ export const projectStructures: ProjectStructure[] = [
 	},
 	{
 		key: 'ns-drive',
+		category: 'open-source',
 		url: 'https://github.com/ngosangns/ns-drive',
 		featureGroups: [
 			{
@@ -241,6 +249,7 @@ export const projectStructures: ProjectStructure[] = [
 	},
 	{
 		key: 'ns-tracing',
+		category: 'open-source',
 		url: 'https://github.com/ngosangns/ns-tracing-extension',
 		featureGroups: [
 			{

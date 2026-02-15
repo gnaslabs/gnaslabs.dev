@@ -11,6 +11,10 @@ export interface UITranslations {
 		products: string;
 		contact: string;
 	};
+	projects: {
+		products: string;
+		openSource: string;
+	};
 	hero: {
 		subtitle: string;
 		description: string;

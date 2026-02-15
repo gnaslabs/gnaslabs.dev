@@ -21,6 +21,7 @@ export function getLocalizedProjects(locale: Locale): Project[] {
 	const translations = projectTranslations[locale];
 	return projectStructures.map((structure, i) => ({
 		key: structure.key,
+		category: structure.category,
 		url: structure.url,
 		title: translations[i].title,
 		description: translations[i].description,

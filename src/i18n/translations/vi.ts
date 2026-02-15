@@ -13,6 +13,10 @@ export const vi = {
 		products: 'Sản Phẩm',
 		contact: 'Liên Hệ',
 	},
+	projects: {
+		products: 'Sản Phẩm',
+		openSource: 'Công Cụ Mã Nguồn Mở',
+	},
 	hero: {
 		subtitle: 'Nghiên Cứu & Phát Triển • TP. Hồ Chí Minh',
 		description:

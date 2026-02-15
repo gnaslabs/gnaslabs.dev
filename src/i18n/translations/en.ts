@@ -13,6 +13,10 @@ export const en = {
 		products: 'Products',
 		contact: 'Contact',
 	},
+	projects: {
+		products: 'Products',
+		openSource: 'Open-Source Tools',
+	},
 	hero: {
 		subtitle: 'Research & Development \u2022 Ho Chi Minh City',
 		description:
