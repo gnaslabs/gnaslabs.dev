@@ -72,6 +72,11 @@ export interface ProjectFeatureGroup {
 
 export type ProjectCategory = 'product' | 'open-source';
 
+export interface ProjectLink {
+	label: string;
+	url: string;
+}
+
 export interface Project {
 	key: string;
 	category: ProjectCategory;
@@ -79,7 +84,7 @@ export interface Project {
 	description: string;
 	tagline: string;
 	highlights: string[];
-	url: string;
+	url: string | ProjectLink[];
 	featureGroups: ProjectFeatureGroup[];
 }
 
@@ -94,7 +99,7 @@ export interface ProjectStructureGroup {
 export interface ProjectStructure {
 	key: string;
 	category: ProjectCategory;
-	url: string;
+	url: string | ProjectLink[];
 	featureGroups: ProjectStructureGroup[];
 }
 
@@ -250,7 +255,10 @@ export const projectStructures: ProjectStructure[] = [
 	{
 		key: 'ns-tracing',
 		category: 'open-source',
-		url: 'https://github.com/NSLabs-HCM/ns-tracing-extension',
+		url: [
+			{ label: 'Extension', url: 'https://github.com/NSLabs-HCM/ns-tracing-extension' },
+			{ label: 'Server', url: 'https://github.com/NSLabs-HCM/ns-tracing-server' },
+		],
 		featureGroups: [
 			{
 				features: [

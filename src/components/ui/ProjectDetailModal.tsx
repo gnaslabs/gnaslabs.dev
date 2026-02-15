@@ -167,14 +167,30 @@ export function ProjectDetailModal({
 							>
 								{t.modal.close}
 							</button>
-							<a
-								href={project.url}
-								target="_blank"
-								rel="noopener noreferrer"
-								className="glow-hover inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-primary text-primary-foreground font-medium text-sm hover:scale-[1.02] transition-transform"
-							>
-								{t.modal.visitPrefix}{project.title} <ExternalLink className="h-4 w-4" />
-							</a>
+							<div className="flex items-center gap-3">
+								{typeof project.url === 'string' ? (
+									<a
+										href={project.url}
+										target="_blank"
+										rel="noopener noreferrer"
+										className="glow-hover inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-primary text-primary-foreground font-medium text-sm hover:scale-[1.02] transition-transform"
+									>
+										{t.modal.visitPrefix}{project.title} <ExternalLink className="h-4 w-4" />
+									</a>
+								) : (
+									project.url.map((link) => (
+										<a
+											key={link.url}
+											href={link.url}
+											target="_blank"
+											rel="noopener noreferrer"
+											className="glow-hover inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-primary text-primary-foreground font-medium text-sm hover:scale-[1.02] transition-transform"
+										>
+											{link.label} <ExternalLink className="h-4 w-4" />
+										</a>
+									))
+								)}
+							</div>
 						</div>
 					</motion.div>
 				</motion.div>
