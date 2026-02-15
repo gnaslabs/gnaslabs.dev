@@ -12,11 +12,24 @@ import { getTranslations, getLocalizedProjects } from '@/i18n';
 
 const STORAGE_KEY = 'ns-lang';
 
-function getInitialLocale(): Locale {
+function getLocaleFromPath(): Locale | null {
+	const path = window.location.pathname;
+	if (path === '/en' || path.startsWith('/en/')) return 'en';
+	if (path === '/vi' || path.startsWith('/vi/')) return 'vi';
+	return null;
+}
+
+function detectLocale(): Locale {
 	const stored = localStorage.getItem(STORAGE_KEY);
 	if (stored === 'en' || stored === 'vi') return stored;
 	const browserLang = navigator.language.toLowerCase();
 	return browserLang.startsWith('vi') ? 'vi' : 'en';
+}
+
+function getInitialLocale(): Locale {
+	const pathLocale = getLocaleFromPath();
+	if (pathLocale) return pathLocale;
+	return detectLocale();
 }
 
 interface LanguageContextValue {
@@ -31,9 +44,17 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 export function LanguageProvider({ children }: { children: ReactNode }) {
 	const [locale, setLocaleState] = useState<Locale>(getInitialLocale);
 
+	// Redirect `/` to `/<locale>`, preserving hash
+	useEffect(() => {
+		if (!getLocaleFromPath()) {
+			window.history.replaceState(null, '', `/${locale}${window.location.hash}`);
+		}
+	}, []);
+
 	const setLocale = (newLocale: Locale) => {
 		setLocaleState(newLocale);
 		localStorage.setItem(STORAGE_KEY, newLocale);
+		window.history.replaceState(null, '', `/${newLocale}${window.location.hash}`);
 	};
 
 	useEffect(() => {
