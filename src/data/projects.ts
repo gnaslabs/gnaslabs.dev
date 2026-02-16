@@ -216,7 +216,7 @@ export const projectStructures: ProjectStructure[] = [
 	{
 		key: 'ns-drive',
 		category: 'open-source',
-		url: 'https://github.com/gnaslabs/ns-drive',
+		url: 'https://github.com/gnasdev/ns-drive',
 		featureGroups: [
 			{
 				features: [
@@ -256,8 +256,8 @@ export const projectStructures: ProjectStructure[] = [
 		key: 'ns-tracing',
 		category: 'open-source',
 		url: [
-			{ label: 'Extension', url: 'https://github.com/gnaslabs/ns-tracing-extension' },
-			{ label: 'Server', url: 'https://github.com/gnaslabs/ns-tracing-server' },
+			{ label: 'Extension', url: 'https://github.com/gnasdev/ns-tracing-extension' },
+			{ label: 'Server', url: 'https://github.com/gnasdev/ns-tracing-server' },
 		],
 		featureGroups: [
 			{
