@@ -107,7 +107,7 @@ export const projectStructures: ProjectStructure[] = [
 	{
 		key: 'ns-shop',
 		category: 'product',
-		url: 'https://shop.ns.id.vn',
+		url: 'https://shop.gnas.dev',
 		featureGroups: [
 			{
 				features: [
@@ -130,7 +130,7 @@ export const projectStructures: ProjectStructure[] = [
 	{
 		key: 'ns-money',
 		category: 'product',
-		url: 'https://money.ns.id.vn',
+		url: 'https://money.gnas.dev',
 		featureGroups: [
 			{
 				features: [
@@ -169,7 +169,7 @@ export const projectStructures: ProjectStructure[] = [
 	{
 		key: 'vocab',
 		category: 'product',
-		url: 'https://vocab.ns.id.vn',
+		url: 'https://vocab.gnas.dev',
 		featureGroups: [
 			{
 				features: [

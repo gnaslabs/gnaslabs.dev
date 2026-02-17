@@ -3,7 +3,7 @@ import { Github, ChevronDown } from "lucide-react";
 import { Container } from "@/components/layout/Container";
 import { useLanguage } from "@/stores/LanguageContext";
 
-const nameLetters = "NS Labs".split("");
+const nameLetters = "gnas.dev".split("");
 
 const containerVariants = {
   hidden: {},

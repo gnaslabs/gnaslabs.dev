@@ -45,7 +45,7 @@ export function Contact() {
 							{t.contact.blogLabel}
 						</a>
 					</div>
-					<div>&copy; {new Date().getFullYear()} NS Labs</div>
+					<div>&copy; {new Date().getFullYear()} gnas.dev</div>
 				</div>
 			</Container>
 		</section>

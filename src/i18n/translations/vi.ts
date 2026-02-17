@@ -2,7 +2,7 @@ import type { UITranslations } from '../types';
 
 export const vi = {
 	meta: {
-		title: 'NS Labs',
+		title: 'gnas.dev',
 		description:
 			'Nhóm nghiên cứu và phát triển các sản phẩm số hữu ích — từ mua sắm thời trang, quản lý tài chính, học từ vựng đến công cụ hỗ trợ lập trình.',
 		ogDescription:
@@ -27,7 +27,7 @@ export const vi = {
 	about: {
 		heading: 'Giới Thiệu',
 		paragraphs: [
-			'NS Labs là một nhóm nghiên cứu và phát triển sản phẩm số tại TP. Hồ Chí Minh. Mỗi sản phẩm đều xuất phát từ nhu cầu thực tế — từ ý tưởng, thiết kế đến phát triển và vận hành.',
+			'gnas.dev là một nhóm nghiên cứu và phát triển sản phẩm số tại TP. Hồ Chí Minh. Mỗi sản phẩm đều xuất phát từ nhu cầu thực tế — từ ý tưởng, thiết kế đến phát triển và vận hành.',
 			'Chúng tôi ưu tiên làm ra những sản phẩm đơn giản, dễ dùng và giải quyết đúng vấn đề.',
 		],
 	},

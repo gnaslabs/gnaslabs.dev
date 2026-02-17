@@ -2,7 +2,7 @@ import type { UITranslations } from '../types';
 
 export const en = {
 	meta: {
-		title: 'NS Labs',
+		title: 'gnas.dev',
 		description:
 			'A research and development group building useful digital products — from fashion shopping, personal finance, vocabulary learning to developer tools.',
 		ogDescription:
@@ -27,7 +27,7 @@ export const en = {
 	about: {
 		heading: 'About',
 		paragraphs: [
-			'NS Labs is a research and development group based in Ho Chi Minh City, building useful digital products. Each product comes from a real need — from idea, design to development and operations.',
+			'gnas.dev is a research and development group based in Ho Chi Minh City, building useful digital products. Each product comes from a real need — from idea, design to development and operations.',
 			'We prioritize making products that are simple, easy to use, and solve the right problem.',
 		],
 	},

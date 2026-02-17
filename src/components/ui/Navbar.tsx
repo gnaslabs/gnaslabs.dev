@@ -70,7 +70,7 @@ export function Navbar() {
 						/>
 						<circle cx="32" cy="32" r="5" fill="url(#nav-logo-g)" />
 					</svg>
-					NS Labs
+					gnas.dev
 				</a>
 				{navItems.map(({ label, href }) => (
 					<a
