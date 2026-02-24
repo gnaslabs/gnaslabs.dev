@@ -61,6 +61,15 @@ Framer Motion animations: staggered letter animation on hero, scroll-triggered f
 - Path alias: `@/` → `src/`
 - No router library — uses hash navigation (`#hero`, `#projects`, etc.)
 
+## Project Content Updates
+
+This site showcases ns-shop, ns-money-kmp, vocab-kmp, ns-drive, and ns-tracing. When those projects add major features or change their positioning, update:
+
+- `src/i18n/projects/en.ts` and `src/i18n/projects/vi.ts` — feature descriptions, taglines, highlights
+- `src/data/projects.ts` — feature group structure and Lucide icons
+
+Product names in content: NS Shop, NS Money, NS Vocab (Vocab), NS Drive, NS Tracing.
+
 ## Conventions
 
 - File naming: `kebab-case.tsx`
