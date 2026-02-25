@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Portfolio/landing page for NS Labs. Bilingual (English/Vietnamese) single-page application with 3D graphics, showcasing ns-shop, vocab, ns-money, ns-drive, and ns-tracing projects.
+Portfolio/landing page for gnas.dev. Bilingual (English/Vietnamese) single-page application with 3D graphics, showcasing gn-shop, gn-engreel, gn-money, gn-drive, and gn-web-tracing projects.
 
 ## Commands
 
@@ -63,12 +63,12 @@ Framer Motion animations: staggered letter animation on hero, scroll-triggered f
 
 ## Project Content Updates
 
-This site showcases ns-shop, ns-money-kmp, vocab-kmp, ns-drive, and ns-tracing. When those projects add major features or change their positioning, update:
+This site showcases gn-shop, gn-money, gn-engreel, gn-drive, and gn-web-tracing. When those projects add major features or change their positioning, update:
 
 - `src/i18n/projects/en.ts` and `src/i18n/projects/vi.ts` — feature descriptions, taglines, highlights
 - `src/data/projects.ts` — feature group structure and Lucide icons
 
-Product names in content: NS Shop, NS Money, NS Vocab (Vocab), NS Drive, NS Tracing.
+Product names in content: GN Shop, GN Money, GN Engreel, GN Drive, GN Web Tracing.
 
 ## Conventions
 
